@@ -142,21 +142,7 @@ true
 #### Input as a string, with defined format
 
 ```handlebars
-\{{moment [exampletextdate,"ddd, DD MMM YYYY HH:mm:ss ZZ"] format="MMMM YYYY"}}
-```
-
-Results in:
-
-```
-June 2013
-```
-
-### Multiple formats
-
-When multiple formats are used, moment.js attempts to use the "correct" one
-
-```handlebars
-\{{moment [exampletextdate,formats] format="MMMM YYYY"}}
+\{{moment exampletextdate inputFormat="ddd, DD MMM YYYY HH:mm:ss ZZ" format="MMMM YYYY"}}
 ```
 
 Results in:
@@ -321,19 +307,6 @@ This month has 30 days
 ```
 
 
-#### Duration, with humanization
-
-```handlebars
-The event will last \{{duration duration humanize=null}}
-```
-
-Results in:
-
-```
-The event will last 3 hours
-```
-
-
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].
 
@@ -341,10 +314,10 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 **Mikko Tapionlinna**
 
-+ [github.com/Arkkimaagi](https://github.com/Arkkimaagi)
++ [github.com/tonytlwu](https://github.com/tonytlwu)
 
 ## License
-Copyright (c) 2014 Mikko Tapionlinna, contributors.
+Copyright (c) 2018 Fliplet, contributors.
 Released under the MIT license
 
 ***
