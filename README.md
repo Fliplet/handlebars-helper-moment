@@ -312,12 +312,12 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Author
 
-**Mikko Tapionlinna**
+**Tony Wu**
 
 + [github.com/tonytlwu](https://github.com/tonytlwu)
 
 ## License
-Copyright (c) 2018 Fliplet, contributors.
+Copyright (c) 2018 Tony Wu, contributors.
 Released under the MIT license
 
 ***
